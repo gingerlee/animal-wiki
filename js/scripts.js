@@ -3,7 +3,8 @@ $(document).ready(function(){
 
   if (slugClicked){
     $("#slug").toggle();
-    // $("#sloth #sealion").hide();
+    $("#sloth").hide();
+    $("#sealion").hide();
   }
   });
 
@@ -11,7 +12,8 @@ $(document).ready(function(){
 
   if (slothClicked){
     $("#sloth").toggle();
-    // $("#slug #sealion").hide();
+    $("#slug").hide();
+    $("#sealion").hide();
   }
   });
 
@@ -19,7 +21,8 @@ $(document).ready(function(){
 
   if (sealionClicked){
     $("#sealion").toggle();
-    // $("#slug #sloth").hide();
+    $("#sloth").hide();
+    $("#slug").hide();
   }
   });
 
